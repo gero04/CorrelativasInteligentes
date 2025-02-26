@@ -1,24 +1,25 @@
 import React from "react";
-import "../styles/Navbar.css";
 import {Link} from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <ul className="navbar-list">
-        <li className="navbar-item">
-          <Link to='/' className='navbar-link'>Inicio</Link>
+    <nav className="bg-gray-800 text-white p-4 fixed top-0 left-0 w-full z-50 shadow-lg">
+      <div className="container mx-auto flex justify-between items-center">
+      <ul className="text-xl font-bold hover:text-gray-300 transition-colors flex space-x-6">
+        <li>
+          <Link to='/' className='hover:text-orange-500 transition-colors font-medium'>Inicio</Link>
         </li>
-        <li className="navbar-item">
-          <Link to='/seguimiento' className="navbar-link" >Seguimiento</Link>
+        <li className="">
+          <Link to='/seguimiento' className="hover:text-orange-500 transition-colors font-medium" >Seguimiento</Link>
         </li>
-        <li className="navbar-item">
-          <Link to='/materias' className="navbar-link" >Materias</Link>
+        <li className="">
+          <Link to='/materias' className="hover:text-orange-500 transition-colors font-medium" >Materias</Link>
         </li>
-        <li className="navbar-item">
-          <Link to='/about' className="navbar-link" >Acerca de</Link>
+        <li className="">
+          <Link to='/about' className="hover:text-orange-500 transition-colors font-medium" >Acerca de</Link>
         </li>
       </ul>
+      </div>
     </nav>
   );
 }

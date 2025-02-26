@@ -222,7 +222,7 @@ export const materiasObligatorias = [
   {
     id: 23,
     nombreCorto: "DSI",
-    nombreCompleto: "Diseno de Sistemas de Informacion",
+    nombreCompleto: "Diseño de Sistemas de Informacion",
     integradora: true,
     cargaHoraria: 6,
     nivel: 3,

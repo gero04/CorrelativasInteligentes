@@ -9,14 +9,16 @@ import SeguimientoMaterias from "./Components/SeguimientoMaterias";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
-        <Navbar />
+      <div className="container bg-indigo-300 h-full">
+      <Navbar />
+      <div className="pt-16">
         <Routes>
           <Route path="/" element={<Inicio/>} />
           <Route path="/seguimiento" element={<SeguimientoMaterias/>} />
           <Route path="/materias" element={<Materias/>} />
           <Route path="/about" element={<AcercaDe/>} />
         </Routes>
+        </div>
       </div>
     </BrowserRouter>
   );
