@@ -8,8 +8,12 @@ function Materias() {
   const { materias } = useContext(CorrelativasContext);
   return (
     <div>
-      <Navbar />
-
+      
+      
+      
+      <h1>holahola hola</h1>
+      
+      
       {materias.map((materia) => (
         <MateriaCard key={materia.id} materia={materia} />
       ))}

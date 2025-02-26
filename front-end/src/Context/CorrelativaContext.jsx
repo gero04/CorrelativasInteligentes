@@ -1,20 +1,21 @@
 import { useState, useEffect, createContext } from "react";
-import { materiasObligatorias as materias } from "../data/materiasObligatorias";
+import { materiasObligatorias as dataMaterias } from "../data/materiasObligatorias";
 
 export const CorrelativasContext = createContext();
 
 export function CorrelativasContextProvider(props) {
   const [materias, setMaterias] = useState([]);
   const [electivas, setElectivas] = useState([]);
-
+  console.log('hola')
   useEffect(() => {
-    setMaterias(materias);
-    setElectivas(electivas)
+    setMaterias(dataMaterias);
+    console.log(dataMaterias);
+    console.log(materias);
   }, []);
 
   return (
-    <TaskContext.Provider value={{materias, electivas}}>
+    <CorrelativasContext.Provider value={{materias, electivas}}>
       {props.children}
-    </TaskContext.Provider>
+    </CorrelativasContext.Provider>
   );
 }
