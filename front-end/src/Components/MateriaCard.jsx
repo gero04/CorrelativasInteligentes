@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function MateriaCard({ materia }) {
   const [modalCard, setModalCard] = useState(false);
@@ -7,11 +7,19 @@ function MateriaCard({ materia }) {
     setModalCard(!modalCard);
   };
 
-  if (modalCard) {
-    document.body.classList.add("active-modal");
-  } else {
-    document.body.classList.remove("active-modal");
-  }
+  
+  useEffect(() => {
+    if (modalCard) {
+      document.body.classList.add('overflow-hidden')
+    }
+    else {
+      document.body.classList.remove('overflow-hidden')
+    }
+
+    return () => {
+      document.body.classList.remove('overflow-hidden')
+    }
+  }, [modalCard])
 
   return (
     <>
@@ -23,10 +31,10 @@ function MateriaCard({ materia }) {
       </button>
 
       {modalCard && (
-        <div className="fixed inset-0 flex items-center justify-center z-50">
+        <div className="fixed inset-0 flex items-center justify-center z-90">
           <div
             onClick={toggleModal}
-            className="absolute inset-0 bg-black bg-opacity-30 backdrop-filter backdrop-blur-sm"
+            className="absolute inset-0 bg-indigo-300/50 bg-opacity-30 backdrop-filter backdrop-blur-sm"
           />
           <div className="bg-white rounded-lg p-6 z-50 relative w-full max-w-md">
             <h2 className="text-lg font-semibold mb-4">
