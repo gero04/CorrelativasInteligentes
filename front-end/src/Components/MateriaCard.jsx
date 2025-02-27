@@ -7,40 +7,56 @@ function MateriaCard({ materia }) {
     setModalCard(!modalCard);
   };
 
-  if(modalCard) {
-    document.body.classList.add('active-modal')
+  if (modalCard) {
+    document.body.classList.add("active-modal");
   } else {
-    document.body.classList.remove('active-modal')
+    document.body.classList.remove("active-modal");
   }
 
   return (
     <>
-    <button onClick={toggleModal} className="bg-gray-800 text-white p-4 m-4 rounded-lg inline-block">
-    <h3 className="text-xl font-bold capitalize">
-        {materia.nombreCorto}
-        </h3>
-    </button>
+      <button
+        onClick={toggleModal}
+        className="bg-gray-800 text-white p-4 m-4 rounded-lg inline-block"
+      >
+        <h3 className="text-xl font-bold capitalize">{materia.nombreCorto}</h3>
+      </button>
 
-    {modalCard && 
-      <div className="modal">
-
-        <div onClick={toggleModal} className="overlay" />
-        <div className="modal-content">
-          <h2>Hello Modal</h2>
-          <button onClick={toggleModal} className="close-modal">CLOSE</button>
+      {modalCard && (
+        <div className="fixed inset-0 flex items-center justify-center z-50">
+          <div
+            onClick={toggleModal}
+            className="absolute inset-0 bg-black bg-opacity-30 backdrop-filter backdrop-blur-sm"
+          />
+          <div className="bg-white rounded-lg p-6 z-50 relative w-full max-w-md">
+            <h2 className="text-lg font-semibold mb-4">
+              {materia.nombreCompleto}
+            </h2>
+            <p>Nivel: {materia.nivel}</p>
+            <p>
+              Es integradora?{" "}
+              {materia.integradora ? (
+                <p>Si, es integradora</p>
+              ) : (
+                <p>No, no es integradora</p>
+              )}
+            </p>
+            <div className="flex justify-center">
+            <button onClick={toggleModal} className="mt-4 bg-blue-500 text-white px-4 py-2 rounded">
+              Cerrar
+            </button>
+            </div>
+          </div>
         </div>
-
-
-      </div>
-    }
+      )}
     </>
   );
 }
 
 export default MateriaCard;
 
-
-{/* 
+{
+  /* 
   <>
 
 <div className="bg-gray-800 text-white p-4 m-4 rounded-lg inline-block">
@@ -50,4 +66,5 @@ export default MateriaCard;
       <p className="text-gray-500 text-sm">{materia.nombreCompleto}</p>
     </div>
 
-  </> */}
+  </> */
+}
