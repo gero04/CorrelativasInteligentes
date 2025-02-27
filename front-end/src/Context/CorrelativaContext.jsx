@@ -6,13 +6,24 @@ export const CorrelativasContext = createContext();
 export function CorrelativasContextProvider(props) {
   const [materias, setMaterias] = useState([]);
   const [electivas, setElectivas] = useState([]);
+  const [misMaterias, setMisMaterias] = useState([]);
 
   useEffect(() => {
     setMaterias(dataMaterias);
+    setMisMaterias(
+      dataMaterias.map((materia) => {
+        ({
+          id: materia.id,
+          nombreCompleto: materia.nombreCompleto,
+          modalidad: materia.modalidad,
+          estado: "Sin cursar",
+        });
+      })
+    );
   }, []);
 
   return (
-    <CorrelativasContext.Provider value={{ materias, electivas }}>
+    <CorrelativasContext.Provider value={{ materias, electivas, misMaterias }}>
       {props.children}
     </CorrelativasContext.Provider>
   );

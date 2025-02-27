@@ -4,7 +4,8 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Inicio from "./Components/Inicio";
 import AcercaDe from "./Components/AcercaDe";
 import Materias from "./Components/Materias";
-import SeguimientoMaterias from "./Components/SeguimientoMaterias";
+import SeguimientoMaterias from "./Components/SeguimientoMaterias/SeguimientoMaterias";
+import SeguimientoFinales from "./Components/SeguimientoFinales";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/seguimiento" element={<SeguimientoMaterias />} />
             <Route path="/materias" element={<Materias />} />
             <Route path="/about" element={<AcercaDe />} />
+            <Route path="/finales" element={<SeguimientoFinales />} />
           </Routes>
         </div>
       </div>
