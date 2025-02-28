@@ -3,14 +3,14 @@ import Navbar from "./Components/Navbar";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Inicio from "./Components/Inicio";
 import AcercaDe from "./Components/AcercaDe";
-import Materias from "./Components/Materias";
+import Materias from "./Components/Materias/Materias";
 import SeguimientoMaterias from "./Components/SeguimientoMaterias/SeguimientoMaterias";
 import SeguimientoFinales from "./Components/SeguimientoFinales";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-indigo-300 h-screen w-screen">
+      <div className="bg-slate-500 w-screen min-h-screen">
         <Navbar />
         <div className="pt-16">
           <Routes>

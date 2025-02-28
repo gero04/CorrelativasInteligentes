@@ -1,8 +1,8 @@
 import React from "react";
 import { useContext } from "react";
-import { CorrelativasContext } from "../Context/CorrelativaContext";
+import { CorrelativasContext } from "../../Context/CorrelativaContext";
 import MateriaCard from "./MateriaCard";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 
 function Materias() {
   const { materias } = useContext(CorrelativasContext);
