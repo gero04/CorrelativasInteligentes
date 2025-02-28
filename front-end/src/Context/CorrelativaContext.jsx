@@ -26,7 +26,7 @@ export function CorrelativasContextProvider(props) {
   }, []);
 
   return (
-    <CorrelativasContext.Provider value={{ materias, electivas, misMaterias }}>
+    <CorrelativasContext.Provider value={{ materias, electivas, misMaterias, setMaterias, setElectivas, setMisMaterias }}>
       {props.children}
     </CorrelativasContext.Provider>
   );

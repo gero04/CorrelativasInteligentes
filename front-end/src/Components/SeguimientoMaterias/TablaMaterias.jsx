@@ -9,21 +9,21 @@ function TablaMaterias() {
   const obtenerEstilo = (estadoDeLaMateria) => {
     switch (estadoDeLaMateria) {
       case "Sin cursar":
-        return "h-auto bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600";
+        return "h-auto bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600 dark:text-white";
       case "Abandono":
-        return "h-auto bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600";
+        return "h-auto bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600 dark:text-white";
       case "Libre":
-        return "h-auto bg-white border-b dark:bg-red-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600";
+        return "h-auto bg-white border-b dark:bg-red-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-red-600 dark:text-white";
       case "Regular":
-        return "h-auto bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600";
+        return "h-auto bg-white border-b dark:bg-yellow-600 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-yellow-500 dark:text-white";
       case "Aprobado":
-        return "h-auto bg-white border-b dark:bg-green-600 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600";
+        return "h-auto bg-white border-b dark:bg-green-600 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-green-500 dark:text-white";
       case "Promocionado":
-        return "h-auto bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600";
+        return "h-auto bg-white border-b dark:bg-violet-700 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-violet-600 dark:text-white";
       case "Cursando":
-        return "h-auto bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600";
+        return "h-auto bg-white border-b dark:bg-sky-600 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-sky-500 dark:text-white";
       default:
-        return "h-auto bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600";
+        return "h-auto bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600 dark:text-white";
     }
   };
 
@@ -40,7 +40,7 @@ function TablaMaterias() {
         <tbody>
           {misMaterias.map((materia) => (
             <tr key={materia.id} className={obtenerEstilo(materia.estado)}>
-              <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+              <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                 {materia.id}
               </td>
               <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -52,9 +52,10 @@ function TablaMaterias() {
               <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 {materia.estado}
               </td>
-              <td className="px-6 py-4 text-gray-900 hover:text-white  border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-sm text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                <EditarCard></EditarCard>
+              <td className="px-6 py-4">
+                <EditarCard materia={materia} ></EditarCard>
               </td>
+              
             </tr>
           ))}
         </tbody>
