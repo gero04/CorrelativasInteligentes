@@ -34,10 +34,10 @@ function MateriaCard({ materia }) {
         <div className="fixed inset-0 flex items-center justify-center z-90">
           <div
             onClick={toggleModal}
-            className="absolute inset-0 bg-indigo-300/50 bg-opacity-30 backdrop-filter backdrop-blur-sm"
+            className="absolute inset-0 bg-slate-400/50 bg-opacity-30 backdrop-filter backdrop-blur-sm"
           />
-          <div className="bg-white rounded-lg p-6 z-50 relative w-full max-w-md">
-            <h2 className="text-lg font-semibold mb-4">
+          <div className="bg-neutral-300 rounded-lg p-6 z-50 relative w-full max-w-md">
+            <h2 className="text-lg font-semibold mb-4 text-center">
               {materia.nombreCompleto}
             </h2>
             <p>Nivel: {materia.nivel}</p>
@@ -49,6 +49,9 @@ function MateriaCard({ materia }) {
                 <p>No, no es integradora</p>
               )}
             </p>
+            <p>Area: {materia.area} </p>
+            <p>Bloque de conocimiento: {materia.bloqueDeConocimiento} </p>
+            <p className="max-h-40 overflow-y-auto break-words whitespace-pre-line">Objetivos de la materia: {materia.objetivo}</p>
             <div className="flex justify-center">
             <button onClick={toggleModal} className="mt-4 bg-blue-500 text-white px-4 py-2 rounded">
               Cerrar

@@ -7,7 +7,6 @@ export function CorrelativasContextProvider(props) {
   const [materias, setMaterias] = useState([]);
   const [electivas, setElectivas] = useState([]);
   const [misMaterias, setMisMaterias] = useState([]);
-  console.log(misMaterias);
   useEffect(() => {
     setMaterias(dataMaterias);
 
@@ -18,7 +17,9 @@ export function CorrelativasContextProvider(props) {
             id: materia.id,
             nombre: materia.nombreCompleto,
             modalidad: materia.modalidad,
-            estado: 'Sin cursar'
+            estado: 'Sin cursar',
+            correlativasRegulares: materia.correlativasRegulares,
+            correlativasAprobadas: materia.correlativasAprobadas
           }
         )
       )

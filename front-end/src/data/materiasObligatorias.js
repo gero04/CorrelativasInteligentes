@@ -6,9 +6,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 5,
     nivel: 1,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Matematica",
+    bloqueDeConocimiento: "Ciencias Basicas de la Ingenieria",
+    objetivo: "Resolver situaciones problemáticas y de aplicación a la ingeniería utilizando  herramientas del cálculo diferencial e Integral de una variable. Resolver problemas de Razón de Cambio y Optimización en diferentes contextos,  mediante la aplicación de conceptos, teoremas y propiedades del Cálculo Diferencial y  la interpretación de los resultados obtenidos en el contexto de la situación.  Argumentar en lenguaje coloquial y/o simbólico para explicar, justificar y/o verificar  procedimientos empleados en la relación del cálculo integral con el cálculo de  primitivas, con el proceso de derivación en el contexto de una situación problemática. Utilizar software de aplicación para evidenciar el aprendizaje de conceptos, técnicas y  modelos matemáticos propios de las funciones, el límite y la continuidad de funciones  de variable real y sus aplicaciones. Utilizar recursos bibliográficos y multimediales del Cálculo diferencial e Integral en la  construcción de argumentos válidos y aceptables de las producciones escritas u orales."
   },
   {
     id: 2,
@@ -17,9 +20,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 5,
     nivel: 1,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Matematica",
+    bloqueDeConocimiento: "Ciencias Basicas de la Ingenieria",
+    objetivo: "Desarrollar capacidad de abstracción, generalización y particularización, fortaleciendo  el pensamiento deductivo e inductivo mediante el uso y aplicación de espacios  vectoriales y transformaciones lineales. Aplicar modelos lineales (matrices, determinantes, sistemas de ecuaciones lineales,  autovalores y autovectores) a la resolución de problemas, analizándolas mediante  argumentos teóricos, empleando técnicas, procesos analíticos y representaciones gráficas. Resolver problemas de aplicación modelizados matemáticamente, utilizando vectores  y matrices, interpretando los resultados obtenidos en el contexto de la situación,  identificando sus elementos, usando distintas representaciones semióticas y  comunicándolos mediante lenguaje matemático apropiado. Resolver problemas de aplicación utilizando elementos de Geometría Analítica (rectas,  planos y formas cuadráticas), interpretando los resultados obtenidos en el contexto de  la situación, identificando sus elementos y comunicándolos mediante lenguaje  geométrico y algebraico. Utilizar software de lenguaje simbólico (sistemas de ecuaciones, matrices,  transformaciones lineales, entre otros) y gráfico (vectores, rectas, planos, formas  cuadráticas, entre otros) para la resolución de situaciones problemáticas."
   },
   {
     id: 3,
@@ -28,9 +34,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 5,
     nivel: 1,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Fisica",
+    bloqueDeConocimiento: "Ciencias Basicas de la Ingenieria",
+    objetivo: "Conocer leyes, conceptos y principios de la Mecánica Clásica y la Óptica geométrica para explicar fenómenos de la naturaleza. Aplicar nociones y procedimientos de la Mecánica, Ondas mecánicas y Óptica  geométrica para resolver situaciones problemáticas, de la Física y la Ingeniería. Comprender los modelos de la Física para interpretar los fenómenos y leyes relacionadas con la mecánica, las ondas mecánicas y la óptica geométrica. Aplicar los principios y leyes de la Mecánica, Ondas mecánicas y Óptica geométrica  para modelizar e interpretar situaciones cotidianas y/o experimentales de Física y de  ingeniería. Utilizar adecuadamente técnicas básicas del laboratorio de Física, para analizar e  interpretar correctamente los resultados obtenidos en las actividades experimentales,  que permitan validar los modelos teóricos."
   },
   {
     id: 4,
@@ -39,9 +48,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 2,
     nivel: 1,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Idiomas",
+    bloqueDeConocimiento: "Ciencias y Tecnologias Complementarias",
+    objetivo: "Desarrollar las dimensiones de la competencia comunicativa intercultural en inglés  general y técnico, para comprender y producir textos en el dominio académico profesional. Interactuar en equipos de trabajo negociando saberes lingüístico-discursivos y  estratégicos para favorecer la construcción colaborativa según la tarea o problema a  resolver."
   },
   {
     id: 5,
@@ -50,9 +62,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 1,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [],
     modalidad: "Cuatrimestral",
+    area: "Desarrollo de Software",
+    bloqueDeConocimiento: "Ciencias Basicas de la Ingenieria",
+    objetivo: "Aplicar métodos inductivos, deductivos y recursivos en resolución de situaciones  problemáticas. Caracterizar estructuras algebraicas y sus propiedades. Emplear la teoría de grafos, dígrafos y árboles en resolución de problemas."
   },
   {
     id: 6,
@@ -61,9 +76,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 5,
     nivel: 1,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Desarrollo de Software",
+    bloqueDeConocimiento: "Tecnologias Basicas",
+    objetivo: "Identificar problemas algorítmicos. Comprender el proceso de desarrollo de software. Resolver problemas aplicando soluciones algorítmicas y estructuras de datos."
   },
   {
     id: 7,
@@ -72,9 +90,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 1,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [],
     modalidad: "Cuatrimestral",
+    area: "Computacion y Comunicacion de Datos",
+    bloqueDeConocimiento: "Tecnologias Basicas",
+    objetivo: "Comprender la representación de datos. Comprender las estructuras básicas de un computador y su funcionamiento. Distinguir la jerarquía de memoria y arquitecturas de microprocesadores. Comprender lenguajes de bajo nivel. Analizar los recursos computacionales a ser utilizados en el procesamiento, almacenamiento y comunicación de datos."
   },
   {
     id: 8,
@@ -83,9 +104,12 @@ export const materiasObligatorias = [
     integradora: true,
     cargaHoraria: 3,
     nivel: 1,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [],
     modalidad: "Cuatrimestral",
+    area: "Sistemas de Informacion",
+    bloqueDeConocimiento: "Ciencias y Tecnologias Complementarias",
+    objetivo: "Reconocer los aportes fundamentales de la Teoría General de Sistemas y del Enfoque  Sistémico al proceso ingenieril. Adquirir los fundamentos de los procesos y modelos de negocios. Asociar los Sistemas de Información a los Procesos de Negocios como base de la  actividad ingenieril. Dimensionar a la información en todas las actividades que individuos y organizaciones realizan, concientizando sobre la responsabilidad ética de la profesión del ingeniero en  sistemas de información."
   },
   {
     id: 11,
@@ -94,9 +118,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 2,
     nivel: 1,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [],
     modalidad: "Cuatrimestral",
+    area: "Ciencias Sociales",
+    bloqueDeConocimiento: "Ciencias y Tecnologias Complementarias",
+    objetivo: "Analizar críticamente las relaciones entre la ciencia y la tecnología para comprender  las potencialidades y los impactos del conocimiento científico y tecnológico en pos del  bienestar individual y colectivo. Interpretar la ciencia y la tecnología desde los paradigmas actuales y comprender el  vínculo que tienen con el desarrollo y la sostenibilidad, en el contexto nacional e  internacional actual. Comprender el carácter transformador de la ingeniería en la construcción de una  sociedad más inclusiva, equitativa y solidaria, incluyendo aspectos relativos a la  perspectiva de géneros. Analizar el desempeño de la ingeniería desde el punto de vista de la ética, la  responsabilidad profesional y el compromiso social, considerando el impacto  económico, social y ambiental de su actividad en el contexto local y global."
   },
   {
     id: 9,
@@ -105,9 +132,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 5,
     nivel: 2,
-    correlativasRegulares: [1, 2, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [1,2],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Matematica",
+    bloqueDeConocimiento: "Ciencias Basicas de la Ingenieria",
+    objetivo: "Describir la trayectoria de un objeto a partir de funciones vectoriales de una variable  real. Resolver situaciones problemáticas en contextos de Ingeniería utilizando recursos del  cálculo diferencial e integral de funciones reales de varias variables. Modelizar fenómenos naturales o inducidos que evolucionan en el tiempo, mediante el  empleo de Ecuaciones Diferenciales, reconociendo su importancia y aplicabilidad en  Ingeniería. Argumentar en lenguaje coloquial y simbólico para explicar y justificar razonamientos,  y fundamentar procedimientos empleados en la resolución de problemas relacionados  con cálculo de gradiente, rotacional, divergencia y con los teoremas fundamentales del  Cálculo Vectorial (de los campos conservativos, de Green, de Stokes y de Gauss Strogradski). Resolver problemas de aplicación en los que se evidencie la utilización criteriosa de  los tópicos de la asignatura, utilizando lenguaje disciplinar adecuado en producciones  escritas u orales. Utilizar las TIC y software de aplicación en Matemática para la resolución de problemas  y simulación de problemas matemáticos relacionados con superficies, curvas y campos  vectoriales, favoreciendo la construcción de conocimiento."
   },
   {
     id: 10,
@@ -116,9 +146,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 5,
     nivel: 2,
-    correlativasRegulares: [1, 3, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [1,3],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Fisica",
+    bloqueDeConocimiento: "Ciencias Basicas de la Ingenieria",
+    objetivo: "Conocer leyes, conceptos y principios de la Termodinámica y Electromagnetismo y  Óptica Física para explicar fenómenos de la naturaleza. Aplicar nociones y procedimientos de la Termodinámica, el Electromagnetismo y la  Óptica Física para resolver situaciones problemáticas, de la Física y la Ingeniería.  Comprender los modelos que usa la Física para interpretar los fenómenos y leyes  relacionadas con la Termodinámica, el Electromagnetismo y la Óptica Física. Aplicar los principios y leyes de la Termodinámica, el Electromagnetismo y la Óptica  Física para modelizar e interpretar situaciones cotidianas y/o experimentales de Física  y de ingeniería. Utilizar técnicas básicas del laboratorio de Física, para analizar e interpretar  correctamente los resultados obtenidos en las actividades experimentales, que  permitan validar los modelos teóricos."
   },
   {
     id: 12,
@@ -127,9 +160,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 2,
     nivel: 2,
-    correlativasRegulares: [4, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [4],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Idiomas",
+    bloqueDeConocimiento: "Ciencias y Tecnologias Complementarias",
+    objetivo: "Integrar las dimensiones de la competencia comunicativa intercultural en inglés general  y técnico para generar nuevos textos pertinentes en el dominio académico-científico. Interactuar en equipos de trabajo generando saberes lingüístico-discursivos y  estratégicos para favorecer la construcción colaborativa según la tarea o problema a  resolver."
   },
   {
     id: 13,
@@ -138,9 +174,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 2,
-    correlativasRegulares: [5, 6, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [5,6],
+    correlativasAprobadas: [],
     modalidad: "Cuatrimestral",
+    area: "Desarrollo de Software",
+    bloqueDeConocimiento: "Tecnologias Basicas",
+    objetivo: "Comprender la sintaxis y semántica de los lenguajes de programación. Comprender los fundamentos de los lenguajes formales, gramáticas y autómatas. Emplear conceptos y procedimientos de las gramáticas libres de contexto y gramáticas regulares en la especificación de la sintaxis de los lenguajes de programación. Diferenciar los procesos de traducción de los lenguajes."
   },
   {
     id: 14,
@@ -149,9 +188,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 2,
-    correlativasRegulares: [5, 6, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [5,6],
+    correlativasAprobadas: [],
     modalidad: "Cuatrimestral",
+    area: "Desarrollo de Software",
+    bloqueDeConocimiento: "Tecnologias Basicas",
+    objetivo: "Comprender los fundamentos de los paradigmas de programación asociados a  lenguajes de programación concretos. Aplicar los diferentes paradigmas en la resolución de problemas. Adquirir criterios para la selección del paradigma de programación a utilizar en un caso  concreto."
   },
   {
     id: 15,
@@ -160,9 +202,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 2,
-    correlativasRegulares: [7, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [7],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Computacion y Comunicacion de Datos",
+    bloqueDeConocimiento: "Tecnologias Basicas",
+    objetivo: "Interpretar aspectos de diseño en los sistemas operativos. Conocer los algoritmos utilizados por los sistemas operativos para la administración de  recursos. Utilizar las herramientas de instalación y administración de los sistemas operativos en  ambientes físicos y virtuales. Comprender las características y el funcionamiento del procesamiento distribuido y en  tiempo real. Identificar aspectos relacionados con la seguridad y protección en los sistemas  operativos en relación con los recursos que administra."
   },
   {
     id: 16,
@@ -171,9 +216,12 @@ export const materiasObligatorias = [
     integradora: true,
     cargaHoraria: 6,
     nivel: 2,
-    correlativasRegulares: [6, 8, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [6,8],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Sistemas de Informacion",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Reconocer las etapas del proceso de desarrollo de sistemas de información. Modelar procesos de negocio utilizando metodologías, herramientas y técnicas de  análisis. Aplicar los elementos que componen la ingeniería de requerimientos. Validar la calidad de los modelos desarrollados según estándares."
   },
   {
     id: 17,
@@ -182,9 +230,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 2,
-    correlativasRegulares: [1, 2, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [1,2],
+    correlativasAprobadas: [],
     modalidad: "Cuatrimestral",
+    area: "Matematica",
+    bloqueDeConocimiento: "Ciencias Basicas de la Ingenieria",
+    objetivo: "Aplicar los conceptos de la estadística descriptiva en el análisis de conjuntos de datos  y la formulación de hipótesis estadísticas, utilizando planillas de cálculo y/o programas  estadísticos específicos. Reconocer experimentos y problemas de aplicación en los que interviene el  componente aleatorio para calcular probabilidades aplicando propiedades, teoremas e  interpretando los resultados obtenidos. Aplicar las distribuciones de probabilidad en la modelización de situaciones  problemáticas del campo de la ingeniería u otros campos del conocimiento. - Estimar los parámetros de las variables de interés para caracterizar a poblaciones en  estudio aplicando propiedades, teoremas y técnicas estadísticas. Plantear pruebas de hipótesis de problemas relacionados con la ingeniería aplicando  propiedades, teoremas y técnicas estadísticas. Analizar situaciones donde se plantea la relación entre dos variables, evaluar los  supuestos teóricos para determinar la factibilidad de aplicación del análisis de regresión  y efectuar los cálculos adecuados interpretando los resultados obtenidos. Utilizar las TICs y software de aplicación en Estadística para la construcción de  conocimiento, para la resolución y simulación de los modelos aleatorios planteados."
   },
   {
     id: 18,
@@ -193,9 +244,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 3,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [1, 2, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [1,2],
     modalidad: "Cuatrimestral",
+    area: "Ciencias Sociales",
+    bloqueDeConocimiento: "Ciencias y Tecnologias Complementarias",
+    objetivo: "Identificar, formular y resolver problemas relacionados con aspectos económicos de  productos. Identificar, formular y resolver problemas relacionados con el diseño financiero y el  análisis económico de proyectos de inversión. Interpretar la realidad económica del contexto nacional e internacional"
   },
   {
     id: 19,
@@ -204,9 +258,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 3,
-    correlativasRegulares: [13, 16, null],
-    correlativasAprobadas: [5, 6, null, null],
+    correlativasRegulares: [13,16],
+    correlativasAprobadas: [5,6],
     modalidad: "Cuatrimestral",
+    area: "Desarrollo de Software",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Comprender los diversos modelos conceptuales de datos. Emplear metodologías de diseño de Base de Datos conceptuales. Asegurar la consistencia e integridad de los datos. Reconocer las amenazas a la seguridad y a la privacidad en las bases de datos y las  medidas de control a definir. Gestionar una Base de Datos."
   },
   {
     id: 20,
@@ -215,9 +272,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 3,
-    correlativasRegulares: [14, 16, null],
-    correlativasAprobadas: [5, 6, null, null],
+    correlativasRegulares: [14,16],
+    correlativasAprobadas: [5,6],
     modalidad: "Cuatrimestral",
+    area: "Desarrollo de Software",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Conocer las arquitecturas, herramientas y patrones para el desarrollo de software. Desarrollar interfaces de usuario. Crear soluciones de software que den respuestas a necesidades reales. Aplicar buenas prácticas y tecnologías en el desarrollo seguro."
   },
   {
     id: 21,
@@ -226,9 +286,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 3,
-    correlativasRegulares: [null, null, null],
-    correlativasAprobadas: [3, 7, null, null],
+    correlativasRegulares: [],
+    correlativasAprobadas: [3,7],
     modalidad: "Anual",
+    area: "Computacion y Comunicacion de Datos",
+    bloqueDeConocimiento: "Tecnologias Basicas",
+    objetivo: "Identificar los procedimientos, procesos, estándares y dispositivos involucrados en la  comunicación de datos. Analizar los principios y procedimientos de la transmisión de datos. Evaluar las topologías, protocolos y arquitecturas utilizadas en la transmisión de datos. Analizar la seguridad de los sistemas de comunicación. Emplear los conceptos de Teoría de la información."
   },
   {
     id: 22,
@@ -237,9 +300,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 3,
-    correlativasRegulares: [9, null, null],
-    correlativasAprobadas: [1, 2, null, null],
+    correlativasRegulares: [9],
+    correlativasAprobadas: [1,2],
     modalidad: "Anual",
+    area: "Sistemas Inteligentes",
+    bloqueDeConocimiento: "Ciencias Basicas de la Ingenieria",
+    objetivo: "Interpretar el análisis y procesamiento de señales discretas y ruido a través de  herramientas disponibles. Emplear diferentes métodos numéricos en la resolución de ecuaciones y  aproximaciones. Analizar los métodos de análisis de señales y métodos numéricos en implementaciones  computacionales."
   },
   {
     id: 23,
@@ -248,9 +314,12 @@ export const materiasObligatorias = [
     integradora: true,
     cargaHoraria: 6,
     nivel: 3,
-    correlativasRegulares: [14, 16, null],
-    correlativasAprobadas: [4, 6, 8, null],
+    correlativasRegulares: [14,16],
+    correlativasAprobadas: [4,6,8],
     modalidad: "Anual",
+    area: "Sistemas de Informacion",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Distinguir las metodologías, modelos, técnicas y lenguajes del proceso de diseño. Elaborar modelos de diseño de sistemas de información, aplicando diseño de  arquitectura. Aplicar patrones de diseño de sistemas orientados a un diseño de calidad. Emplear conceptos de experiencia de usuario en el diseño del sistema de información. Aplicar herramientas de verificación y validación en el diseño, respetando criterios de  calidad y seguridad."
   },
   {
     id: 99,
@@ -259,9 +328,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 3,
-    correlativasRegulares: [16, null, null],
-    correlativasAprobadas: [6, 8, 13, 14],
+    correlativasRegulares: [16],
+    correlativasAprobadas: [6,8,13,14],
     modalidad: "Cuatrimestral",
+    area: "Sistemas de Informacion",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Analizar, diseñar e implementar un sistema de software, en el contexto de un sistema de información. Elaborar documentación técnica para la utilización de sistemas de software. Implementar planes de prueba en el desarrollo de un sistema de software. Reconocer conceptos que intervienen en pericias sobre sistemas de software."
   },
   {
     id: 24,
@@ -270,9 +342,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 2,
     nivel: 4,
-    correlativasRegulares: [11, null, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [11],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Ciencias Sociales",
+    bloqueDeConocimiento: "Ciencias y Tecnologias Complementarias",
+    objetivo: "Interpretar leyes, decretos y disposiciones del Sistema Jurídico Argentino para  desempeñarse profesionalmente conforme a pautas éticas, y en particular para su  aplicación en los dictámenes y peritajes. Distinguir y valorar situaciones relativas al ejercicio profesional. Valorar los aspectos éticos y de responsabilidad social de la actividad profesional desde  la perspectiva del derecho, para desarrollar innovación en tecnología, en contexto de  cambio. Detectar situaciones de riesgo y potencialmente dañinas y proponer los recaudos  pertinentes a la normativa aplicable para su prevención en materia de responsabilidad  profesional y compromiso social. Identificar la relación entre el ejercicio de la ingeniería y el impacto con la ingeniería  sustentable en función de las regulaciones normativas vigentes."
   },
   {
     id: 25,
@@ -281,9 +356,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 4,
-    correlativasRegulares: [19, 20, 23],
-    correlativasAprobadas: [13, 14, null, null],
+    correlativasRegulares: [19,20,23],
+    correlativasAprobadas: [13,14],
     modalidad: "Cuatrimestral",
+    area: "Desarrollo de Software",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Comprender los componentes de un proyecto de Ingeniería de Software. Aplicar estándares internacionales de certificación en Ingeniería de Software. Emplear las métricas de software que se aplican al desarrollo de software. Aplicar técnicas y herramientas de auditoría de software."
   },
   {
     id: 26,
@@ -292,9 +370,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 4,
-    correlativasRegulares: [15, 21, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [15,21],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Computacion y Comunicacion de Datos",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Aplicar las arquitecturas de redes de datos como soporte de un sistema de información. Analizar los componentes necesarios que conforman una red de datos garantizando la calidad de servicio. Evaluar los conceptos de seguridad informática en una red de datos. Evaluar arquitecturas de redes y sus componentes."
   },
   {
     id: 27,
@@ -303,9 +384,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 4,
-    correlativasRegulares: [17, 22, null],
-    correlativasAprobadas: [null, null, null, null],
+    correlativasRegulares: [17,22],
+    correlativasAprobadas: [],
     modalidad: "Anual",
+    area: "Sistemas Inteligentes",
+    bloqueDeConocimiento: "Tecnologias Basicas",
+    objetivo: "Modelar problemas de toma de decisión referentes a la conducción y coordinación de  actividades dentro de una organización. Resolver problemas de optimización en la toma de decisión. Construir modelos de pronósticos para caracterizar y predecir valores futuros en  sistemas dinámicos."
   },
   {
     id: 28,
@@ -314,9 +398,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 4,
-    correlativasRegulares: [17, null, null],
-    correlativasAprobadas: [9, null, null, null],
+    correlativasRegulares: [17],
+    correlativasAprobadas: [9],
     modalidad: "Cuatrimestral",
+    area: "Sistemas Inteligentes",
+    bloqueDeConocimiento: "Tecnologias Basicas",
+    objetivo: "Comprender la simulación de eventos discretos, continuos y basados en agentes de  los sistemas. Reconocer los métodos estadísticos y probabilísticos utilizados en la construcción de  modelos de simulación. Emplear los procesos de verificación y validación de los modelos. Interpretar los resultados estadísticos de la simulación."
   },
   {
     id: 29,
@@ -325,9 +412,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 4,
-    correlativasRegulares: [10, 22, null],
-    correlativasAprobadas: [9, null, null, null],
+    correlativasRegulares: [10,22],
+    correlativasAprobadas: [9],
     modalidad: "Cuatrimestral",
+    area: "Sistemas Inteligentes",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Comprender el rol de los modelos en el diseño y la evaluación de estrategias de control. Distinguir los tipos de control y los controladores utilizados en la práctica industrial. Proyectar sistemas de adquisición, transmisión y procesamiento de datos utilizados en  los procesos de mejora. Planificar tareas para sistemas robóticos. Conocer las tecnologías utilizadas en la medición de variables, la transmisión de datos  y la sistematización de la información en el contexto de la industria inteligente."
   },
   {
     id: 30,
@@ -336,9 +426,12 @@ export const materiasObligatorias = [
     integradora: true,
     cargaHoraria: 6,
     nivel: 4,
-    correlativasRegulares: [18, 23, null],
-    correlativasAprobadas: [16, null, null, null],
+    correlativasRegulares: [18,23],
+    correlativasAprobadas: [16],
     modalidad: "Anual",
+    area: "Sistemas de Informacion",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Aplicar técnicas y metodologías en la elaboración del plan estratégico en la selección y  dirección de talento y capital humano, procesos y sistemas software, sistemas de  computación y comunicación en áreas y proyectos de sistemas de Información,  considerando los riesgos y optimizando los recursos tecnológicos. Identificar los fundamentos de las relaciones laborales y la higiene y seguridad en el  trabajo.  Realizar el análisis de viabilidad y factibilidad de proyectos informáticos, empleando  técnicas y herramientas relacionadas para su evaluación. Incorporar estrategias y herramientas de identificación de emprendimientos con base  tecnológica."
   },
   {
     id: 31,
@@ -347,9 +440,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 5,
-    correlativasRegulares: [28, null, null],
-    correlativasAprobadas: [17, 22, null, null],
+    correlativasRegulares: [28],
+    correlativasAprobadas: [17,22],
     modalidad: "Cuatrimestral",
+    area: "Sistemas Inteligentes",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Gestionar proyectos de construcción de sistemas inteligentes. Reconocer estrategias de creación de sistemas inteligentes. Resolver problemas de representación del conocimiento y razonamiento en ambientes  deterministas y bajo incertidumbre. Evaluar modelos de aprendizaje automático a utilizar en la solución de problemas."
   },
   {
     id: 32,
@@ -358,9 +454,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 5,
-    correlativasRegulares: [28, null, null],
-    correlativasAprobadas: [17, 19, null, null],
+    correlativasRegulares: [28],
+    correlativasAprobadas: [17,19],
     modalidad: "Cuatrimestral",
+    area: "Sistemas Inteligentes",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Distinguir estrategias para gestionar un proyecto de ciencia de datos. Aplicar estrategias de extracción, visualización y transformación de datos en forma de  patrones útiles y aplicables en el desarrollo de sistemas inteligentes. Crear modelos que resuelvan situaciones problemáticas particulares en el contexto del  negocio."
   },
   {
     id: 33,
@@ -369,9 +468,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 4,
     nivel: 5,
-    correlativasRegulares: [18, 27, null],
-    correlativasAprobadas: [23, null, null, null],
+    correlativasRegulares: [18,27],
+    correlativasAprobadas: [23],
     modalidad: "Cuatrimestral",
+    area: "Gestion Ingenieril",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Emplear los fundamentos de la gestión de procesos de negocios. Gestionar los sistemas para la planificación de proyectos. Formular estrategias en el uso de tecnologías de la información en la gestión del  conocimiento. Aplicar los sistemas de soporte de decisión y su proceso de desarrollo."
   },
   {
     id: 34,
@@ -380,9 +482,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 5,
-    correlativasRegulares: [24, 30, null],
-    correlativasAprobadas: [18, null, null, null],
+    correlativasRegulares: [24,30],
+    correlativasAprobadas: [18],
     modalidad: "Cuatrimestral",
+    area: "Gestion Ingenieril",
+    bloqueDeConocimiento: "Ciencias y Tecnologias Complementarias",
+    objetivo: "Relacionar lineamientos de gestión gerencial en los procesos aplicables a las  organizaciones inteligentes. Dimensionar los impactos en la dirección y liderazgo de los modelos de negocios  facilitados por la innovación tecnológica en las organizaciones. Promover la responsabilidad social empresarial y el fortalecimiento de las actitudes  emprendedoras."
   },
   {
     id: 35,
@@ -391,9 +496,12 @@ export const materiasObligatorias = [
     integradora: false,
     cargaHoraria: 3,
     nivel: 5,
-    correlativasRegulares: [26, 30, null],
-    correlativasAprobadas: [20, 21, null, null],
+    correlativasRegulares: [26,30],
+    correlativasAprobadas: [20,21],
     modalidad: "Cuatrimestral",
+    area: "Gestion Ingenieril",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Aplicar modelos de referencia en la gestión de la seguridad de la información según las  normativas vigentes. Planificar controles de seguridad basados en la gestión de riesgo. Desarrollar un plan de seguridad asegurando la continuidad del negocio. Comprender el proceso de auditoría y tratamiento de evidencias."
   },
   {
     id: 36,
@@ -402,8 +510,11 @@ export const materiasObligatorias = [
     integradora: true,
     cargaHoraria: 6,
     nivel: 5,
-    correlativasRegulares: [25, 26, 30],
-    correlativasAprobadas: [12, 20, 23, null],
+    correlativasRegulares: [25,26,30],
+    correlativasAprobadas: [12,20,23],
     modalidad: "Anual",
-  },
-];
+    area: "Sistemas de Informacion",
+    bloqueDeConocimiento: "Tecnologias Aplicadas",
+    objetivo: "Aplicar técnicas, metodologías y herramientas de gestión de proyectos de sistemas de  información. Emplear conceptos de gestión de equipos y liderazgo, alcance, costos y cronograma,  comunicaciones, riesgos, calidad e integración del proyecto. Evaluar el impacto y la protección ambiental en los proyectos de sistemas de  información. Integrar conocimientos y competencias en el desarrollo de un proyecto de un sistema  de información."
+  }
+]

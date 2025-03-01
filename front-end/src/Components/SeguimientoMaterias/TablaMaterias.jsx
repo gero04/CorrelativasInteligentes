@@ -2,6 +2,7 @@ import React from "react";
 import { useContext } from "react";
 import { CorrelativasContext } from "../../Context/CorrelativaContext";
 import EditarCard from "./EditarCard";
+import Cursable from "./Cursable";
 
 function TablaMaterias() {
   const { misMaterias } = useContext(CorrelativasContext);
@@ -36,6 +37,8 @@ function TablaMaterias() {
           <th className="py-2 px-4 border">Modalidad</th>
           <th className="py-2 px-4 border">Estado</th>
           <th className="py-2 px-4 border">Actualizar</th>
+          <th className="py-2 px-4 border">La puedo cursar?</th>
+          
         </thead>
         <tbody>
           {misMaterias.map((materia) => (
@@ -55,6 +58,7 @@ function TablaMaterias() {
               <td className="px-6 py-4">
                 <EditarCard materia={materia} ></EditarCard>
               </td>
+              <td><Cursable materiaActual={materia} /></td>
               
             </tr>
           ))}
