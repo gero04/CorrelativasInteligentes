@@ -3,8 +3,6 @@ import { CorrelativasContext } from "../../Context/CorrelativaContext";
 
 function Cursable({ materiaActual }) {
   const materias = useContext(CorrelativasContext);
-  //console.log(materias.materias) // todos los atributos
-  //console.log(materiaActual) //estado id modalidad nombre
   let correlativasRegulares = materias.misMaterias.filter((materia) =>
     materiaActual.correlativasRegulares.includes(materia.id)
   );
