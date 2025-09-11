@@ -1,18 +1,18 @@
 import "./App.css";
-import Navbar from "./Components/Navbar";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
-import Inicio from "./Components/Inicio";
-import AcercaDe from "./Components/AcercaDe";
-import Materias from "./Components/Materias/Materias";
-import SeguimientoMaterias from "./Components/SeguimientoMaterias/SeguimientoMaterias";
-import SeguimientoFinales from "./Components/SeguimientoFinales";
+import { Navbar } from './components/Layout/Navbar';
+import { Inicio } from './pages/Inicio';
+import { SeguimientoMaterias } from './pages/SeguimientoMaterias';
+import { SeguimientoFinales } from './pages/SeguimientoFinales';
+import { Materias } from './pages/Materias';
+import { AcercaDe } from './pages/AcercaDe';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-slate-500 w-screen min-h-screen">
+      <div className="bg-slate-500 w-screen min-h-screen pt-16">
         <Navbar />
-        <div className="pt-16">
+        <div>
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/seguimiento" element={<SeguimientoMaterias />} />

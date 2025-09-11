@@ -1,9 +1,7 @@
 import React from 'react'
 
-function SeguimientoFinales() {
+export const SeguimientoFinales = () => {
   return (
     <div>SeguimientoFinales</div>
   )
 }
-
-export default SeguimientoFinales

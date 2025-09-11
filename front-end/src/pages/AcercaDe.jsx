@@ -1,9 +1,7 @@
 import React from 'react'
 
-function AcercaDe() {
+export const AcercaDe = () => {
   return (
     <div>AcercaDe</div>
   )
 }
-
-export default AcercaDe

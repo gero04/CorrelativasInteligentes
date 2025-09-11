@@ -1,4 +1,4 @@
-export const materiasObligatorias = [
+const materiasObligatorias = [
   {
     id: 1,
     nombreCorto: "AM1",
@@ -518,3 +518,5 @@ export const materiasObligatorias = [
     objetivo: "Aplicar técnicas, metodologías y herramientas de gestión de proyectos de sistemas de  información. Emplear conceptos de gestión de equipos y liderazgo, alcance, costos y cronograma,  comunicaciones, riesgos, calidad e integración del proyecto. Evaluar el impacto y la protección ambiental en los proyectos de sistemas de  información. Integrar conocimientos y competencias en el desarrollo de un proyecto de un sistema  de información."
   }
 ]
+
+module.exports = materiasObligatorias
