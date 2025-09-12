@@ -5,7 +5,7 @@ const cors = require("cors")
 const express = require("express")
 
 //Importamos los datos de las materias
-const materias = require('./data/dataMaterias.js')
+const materias = require('./src/data/dataMaterias.js')
 
 //Iniciamos la aplicacion express
 const app = express()
