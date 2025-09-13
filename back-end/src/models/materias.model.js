@@ -62,3 +62,5 @@ const materiasSchema = {
         unique: false
     }
 }
+
+module.exports = materiasSchema
