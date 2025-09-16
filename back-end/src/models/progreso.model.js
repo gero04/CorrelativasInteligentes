@@ -23,14 +23,56 @@ const progresoSchema = {
         },
         //Cuantos tps/parciales/laboratorios/actividades tiene? importante que sea conocido el numero, por eso no pongo cant clases
         configuracionMateria: {
-            cantidadParciales: {type: Number, min: 0, max: 10},
-            cantidadTrabajosPracticos: {type: Number, min: 0, max: 20},
-            cantidadPresentaciones: {type: Number, min: 0, max: 20},
-            cantidadLaboratorios: {type: Number, min: 0, max: 0},
-            cantidadClasesInvertidas: {type: Number, min: 0, max: 0}
+            cantidadParciales: {type: Number, min: 0},
+            cantidadTrabajosPracticos: {type: Number, min: 0},
+            cantidadPresentaciones: {type: Number, min: 0},
+            cantidadLaboratorios: {type: Number, min: 0},
+            cantidadClasesInvertidas: {type: Number, min: 0}
+        },
+        //Array donde se va a cargar las instancias evaluativas como tal
+        instanciasEvaluativas: {
+            parciales: [{
+                numeroDeParcial: {type: Number, min: 1},
+                tipoDeParcial: {type: String, enum: ['Teorico', 'Practico', 'Integrado']},
+                notaDeParcial: {type: Number, min: 0, max: 10},
+                fechaDeParcial: {type: Date, default: Date.now},
+                aprobado: {type: Boolean} //En teoria este se tendria que calcular automaticamente 
+            }],
+            trabajosPracticos: [{
+                nombreDeTrabajoPractico: {type: String},
+                numeroDeTrabajoPractico: {type: Number, min: 1},
+                notaDeTrabajoPractico: {type: Number, min: 0, max: 10},
+                fechaEntregaDeTrabajoPractico: {type: Date, default: Date.now},
+                aprobado: {type: Boolean}
+            }],
+            laboratorios: [{
+                nombreDeLaboratorio: {type: String},
+                numeroDeLaboratorio: {type: Number, min: 1},
+                notaDeLaboratorio: {type: Number, min: 0, max: 10},
+                fechaDeLaboratorio: {type: Date, default: Date.now},
+                aprobado: {type: Boolean}
+            }],
+            presentaciones: [{
+                nombreDePresentacion: {type: String},
+                numeroDePresentacion: {type: Number, min: 1},
+                notaDePresentacion: {type: Number, min: 0, max: 10},
+                fechaDePresentacion: {type: Date, default: Date.now},
+                aprobado: {type: Boolean}
+            }],
+            clasesInvertidas: [{
+                nombreDeClaseInvertida: {type: String},
+                numeroDeClaseInvertida: {type: Number, min: 1},
+                notaDeClaseInvertida: {type: Number, min: 0, max: 10},
+                fechaDeClaseInvertida: {type: Date, default: Date.now},
+                aprobado: {type: Boolean}
+            }]
         }
     }
-    ]
+    ],
+    ultimaActualizacion: {
+            type: Date,
+            default: Date.now
+        }
 }
 
 module.exports = progresoSchema
